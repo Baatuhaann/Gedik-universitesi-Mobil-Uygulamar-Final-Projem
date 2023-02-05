@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/resim1"
+            android:visibility="visible"
+            />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resim2"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnchange"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:text="İleri"
+        android:textColor="@color/white"
+        app:cornerRadius="100dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"
+        />
+
+    <Button
+
+        android:id="@+id/btnchange1"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:text="Geri"
+        android:textColor="@color/white"
+        app:cornerRadius="100dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-180dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="@color/brown"
+        android:text="Son Dakika Haberler"/>
+
+
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="250dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="-1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/teal_200" />
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/teal_700" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/haberBir"
+                        android:src="@drawable/haber1"
+                        android:layout_weight="1"
+                        android:layout_alignParentLeft="true" />
+
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/purple_200" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/haberBir"
+                        android:text="Apple’ın globaldeki en hızlı cihazları belli oldu!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/orange"
+                        android:onClick="haber11"
+                        android:text="Devamı İçin Tıklayınız"
+                        android:textSize="5dp"
+                        android:textStyle="normal|italic|bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/purple_500" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="15dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/orange" />
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/red" />
+
+                    <ImageView
+                        android:id="@+id/haberuc"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_weight="1"
+                        android:src="@drawable/macbook2" />
+
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/red" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/haberuc"
+                        android:text="Steam veritabanında iki gizemli MacBook ortaya çıktı!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="Devamı İçin Tıklayınız"
+                        android:textSize="5dp"
+                        android:onClick="haber22"
+                        android:textStyle="normal|italic|bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/orange" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="15dp"
+
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/teal_700" />
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/teal_200" />
+
+                    <ImageView
+                        android:id="@+id/haberdort"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_weight="1"
+                        android:src="@drawable/haber4" />
+
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/teal_200" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/haberdort"
+                        android:text="Amiral gemisi katili Realme telefonlar piyasaya sürülüyor!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/purple_700"
+                        android:text="Devamı İçin Tıklayınız"
+                        android:textSize="5dp"
+                        android:textStyle="normal|italic|bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/teal_700" />
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="15dp"
+
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/purple_500" />
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:background="@color/purple_200" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/haberbes"
+                        android:src="@drawable/haber5"
+                        android:layout_weight="1"
+                        android:layout_alignParentLeft="true" />
+
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/purple_200" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/haberbes"
+                        android:text="Steam veritabanında iki gizemli MacBook ortaya çıktı!"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="6dp"
+                        android:layout_marginBottom="3dp"
+                        android:backgroundTint="@color/teal_700"
+                        android:text="Devamı İçin Tıklayınız"
+                        android:textSize="5dp"
+                        android:textStyle="normal|italic|bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/purple_700" />
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#D3D3D3"
+                android:layout_marginTop="75dp"
+                >
+
+                <ImageView
+                    android:onClick="anasayfa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_home" />
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:onClick="haber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_liste"
+                    android:layout_weight="1"/>
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:onClick="haber6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </TableLayout>
+
+
+
+</FrameLayout>

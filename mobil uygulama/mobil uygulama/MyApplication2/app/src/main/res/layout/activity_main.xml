@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BHaber Giriş Ekranı"
+        android:id="@+id/Kayıtol"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:id="@+id/KullaniciAdi"
+        android:layout_below="@+id/Kayıtol"
+        android:hint="Kullanıcı Adı"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:id="@+id/Şifre"
+        android:layout_below="@+id/KullaniciAdi"
+        android:hint="Şifre Giriniz.."
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        />
+
+    <Button
+        android:id="@+id/girisbuton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Şifre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/purple_700"
+        android:hint="Giriş"
+        android:textColorHint="@color/white"
+        android:onClick="giris"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şifrenizi mi unuttunuz?"
+        android:id="@+id/Kayıtyazi"
+        android:layout_below="@+id/girisbuton"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        android:layout_marginTop="-0.400dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yazı"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_above="@+id/ikonlar"
+        android:text="Sosyal Medya Hesaplarımız"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ikonlar"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:layout_width="48dp"
+            android:src="@drawable/whatsapp"/>
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:layout_width="48dp"
+            android:src="@drawable/twitter"/>
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:layout_width="48dp"
+            android:src="@drawable/instagram"/>
+        <ImageView
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:layout_width="48dp"
+            android:src="@drawable/facebook"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

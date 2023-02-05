@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Haber1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/haberfoto1"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple’ın globaldeki en hızlı cihazları belli oldu!!!!"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/UZAYMAVİSİ"
+                android:textSize="20dp"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apple, 7 Eylül‘de düzenlediği etkinlikte iPhone 14 serisi dahil en yeni ürünlerini kullanıcıların beğenisine sundu. Bu bağlamda şirketin ürün yelpazesi genişleyecek ve hatta AnTuTu gibi platformlar tarafından her ay yayınlanan raporlarda da önemli değişiklikler meydana geldi. Peki an itibariyle üreticinin globalde en hızlı cihazları hangileri? İşte en hızlı Apple cihazlar listesi!
+
+Not: Sıralamada 1 ila 31 Kasım tarihleri arası baz alınmıştır. Buna ek olarak söz konusu puanlar AnTuTu V9 sürümüne dayanmaktadır."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kasım ayının en hızlı Apple cihazlar listesi (Global)"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/UZAYMAVİSİ"
+                android:textSize="20dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kullanıcıların ne çok merak ettiği konu doğal olarak iPhone 14 serisinin nasıl bir performans göstereceği oldu. Hatta standart ve Pro modellerin farklı işlemcilerden güç alması akıllardaki soru işaretlerini daha da artırdı."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="-20dp"
+                android:background="@drawable/haber2"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AnTuTu’ya göre kasım ayının en hızlı Apple cihazı 1 milyon 430 bin 297 puanla 12.9 inç iPad Pro 6 oldu. Son dönemde zirveye adeta demir atan tableti 1 milyon 307 bin 165 puanla kardeşi 11 inç iPad Pro 6 takip etti.
+
+Listenin üçüncü sırasında da geçtiğimiz aylara damga vuran ve uzun süre zirveden inmeyen 12.9 inç iPad Pro 5 yer alıyor. 1 milyon 214 bin 955 puan alan cihazın ardından 1 milyon 192 bin 928 puanla 11 inç iPad Pro 5 geliyor.
+
+iPhone 14 Pro modellerinin an itibariyle en güç mobil işlemcilerden birisi Apple A16 Bionic’ten güç aldığını belirtelim. Son olarak bir önceki nesil işlemciyle gelen iPhone 14 ve 14 Plus’ın bu listeye giremediğini belirtelim."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#D3D3D3">
+
+                <ImageView
+                    android:onClick="anasayfa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_home" />
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:onClick="haber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_liste"
+                    android:layout_weight="1"/>
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

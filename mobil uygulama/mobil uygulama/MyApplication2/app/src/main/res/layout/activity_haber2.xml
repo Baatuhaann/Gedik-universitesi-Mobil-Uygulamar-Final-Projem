@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".haber2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/habersayfa2"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steam veri tabanında iki gizemli MacBook ortaya çıktı!!!!!"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/UZAYMAVİSİ"
+                android:textSize="20dp"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apple’ın uzun zamandır yeni MacBook modellerini tanıtması bekleniyor. 2023 yılının başında tanıtılması beklenen yeni bilgisayarlar için her geçen gün yeni iddialar ortaya atılıyor. Son olarak Steam‘in veri tabanında daha önce tanıtılmamış iki Apple ürünü ortaya çıktı."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yeni 14 ve 16 inçlik MacBook modelleri yolda!"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/UZAYMAVİSİ"
+                android:textSize="20dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Steam’in donanım veri tabanında ortaya çıkan Apple bilgisayarlar heyecan yaratmış durumda. Bu veritabanı, Steam oyunlarına erişmek için kullanılan bilgisayarları ve yazılımları kaydediyor. Bu kayıtlar arasında ise Mac14,6 ve bir Mac15,4 olarak kodlanan iki bilgisayar öne çıkıyor."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="-20dp"
+                android:background="@drawable/habersayfa22"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yeni dizüstü bilgisayarlar hakkında çok fazla detay bulunmuyor ancak Steam veri tabanında da yer almaları ile birlikte MacBook’ların yakın zamanda tanıtılması içten bile değil. Yeni bilgisayarların M2 Pro ve M2 Max işlemcilerine sahip yeni 14 inç ve 16 inç MacBook Pro modelleri olduğu düşünülüyor."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2023 yılının başlarında tanıtılması beklenen yeni bilgisayarların Steam veri tabanında da yer alması ile iddialar daha da güçlenmiş oldu. Steam veritabanına kaydedilen bu bilgisayarlar görünüşe göre Apple yetkilileri tarafından test ediliyor.
+
+Apple’ın Mac14,6 kod adlı modeli daha önce de Geekbench puanı ile gündeme gelmişti. M2 Max işlemcisinin tek ve çok çekirdekli sonuçlarının ortaya çıkarken, yine Mac14,6 modelini görmüştük. M2 Max standart M2 işlemciye göre yüzde 20’ye varan performans artışı vadediyor."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/black" />
+
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="-20dp"
+                android:background="@drawable/habersayfa23"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/black" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13 inç MacBook Pro’nun M2 işlemcisi ile elde ettiği etkileyici rakamları zaten biliyoruz. Bu rakamlardan yola çıkarsak 14 inç ve 16 inç modellerin sunacağı performans bizi şimdiden heyecanlandırıyor. Steam veri tabanına göre, daha fazla beklemek zorunda kalmayacağız.
+
+Apple’ın yeni ve daha güçlü MacBook modellerini çok yakında göreceğiz gibi görünüyor. Peki siz Apple’ın yeni M2 Max işlemcisi ve MacBook modelleri hakkında ne düşünüyorsunuz? Görüşlerinizi yorumlar kısmında bizimle paylaşabilirsiniz."
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textStyle="italic" />
+
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#D3D3D3">
+
+                <ImageView
+                    android:onClick="anasayfa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_home" />
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:onClick="haber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_liste"
+                    android:layout_weight="1"/>
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#000" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
